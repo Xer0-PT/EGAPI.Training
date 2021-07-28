@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Acme.BookStore.Store</RootNamespace>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+    <UserSecretsId>Acme.BookStore.Store-c2d31439-b723-48e2-b061-5ebd7aeb6010</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.Async" Version="1.4.0" />
+    <PackageReference Include="IdentityModel" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.*" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="5.0.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.*" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.EventBus.RabbitMQ" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.Swashbuckle" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="4.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Acme.BookStore.Domain.Shared\Acme.BookStore.Domain.Shared.csproj" />
+    <ProjectReference Include="..\..\src\Acme.BookStore.Store.HttpApi\Acme.BookStore.Store.HttpApi.csproj" />
+    <ProjectReference Include="..\..\src\Acme.BookStore.Store.Application\Acme.BookStore.Store.Application.csproj" />
+    <ProjectReference Include="..\..\src\Acme.BookStore.Store.EntityFrameworkCore\Acme.BookStore.Store.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Acme.BookStore.Store.Host.Shared\Acme.BookStore.Store.Host.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Logs\**" />
+    <Compile Remove="Migrations\**" />
+    <Content Remove="Logs\**" />
+    <Content Remove="Migrations\**" />
+    <EmbeddedResource Remove="Logs\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <None Remove="Logs\**" />
+    <None Remove="Migrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Migrations\20210713115649_initial.cs" />
+    <Compile Include="Migrations\20210713115649_initial.Designer.cs" />
+    <Compile Include="Migrations\20210714142448_Added-UpdateFlag-StockToUpdate-To-Purchase-Entity.cs" />
+    <Compile Include="Migrations\20210714142448_Added-UpdateFlag-StockToUpdate-To-Purchase-Entity.Designer.cs" />
+    <Compile Include="Migrations\20210714145031_Added-Full-To-AuditedEntities.cs" />
+    <Compile Include="Migrations\20210714145031_Added-Full-To-AuditedEntities.Designer.cs" />
+    <Compile Include="Migrations\20210715160141_Changed-Books-To-StoreBooks-In-EFCore.StoreDbContext.cs" />
+    <Compile Include="Migrations\20210715160141_Changed-Books-To-StoreBooks-In-EFCore.StoreDbContext.Designer.cs" />
+    <Compile Include="Migrations\20210715160449_Changed-Books-To-StoreBooks-In-EFCore.StoreDbContextModelCreatingExtensions.cs" />
+    <Compile Include="Migrations\20210715160449_Changed-Books-To-StoreBooks-In-EFCore.StoreDbContextModelCreatingExtensions.Designer.cs" />
+    <Compile Include="Migrations\20210726114528_Added-BookName-Relation.cs" />
+    <Compile Include="Migrations\20210726114528_Added-BookName-Relation.Designer.cs" />
+    <Compile Include="Migrations\StoreHttpApiHostMigrationsDbContextModelSnapshot.cs" />
+  </ItemGroup>
+
+</Project>

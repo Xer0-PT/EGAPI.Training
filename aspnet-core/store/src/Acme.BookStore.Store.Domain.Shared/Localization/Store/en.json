@@ -1,0 +1,8 @@
+{
+  "culture": "en",
+  "texts": {
+    "ManageYourProfile": "Manage your profile",
+    "SamplePageMessage": "A sample page for the Store module",
+    "Store:0001": "The book you chose has '{Stock}' in stock."
+  }
+}

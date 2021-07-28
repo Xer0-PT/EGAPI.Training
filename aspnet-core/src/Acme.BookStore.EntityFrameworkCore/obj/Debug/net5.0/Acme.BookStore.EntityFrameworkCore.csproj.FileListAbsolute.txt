@@ -1,0 +1,17 @@
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\bin\Debug\net5.0\Acme.BookStore.EntityFrameworkCore.deps.json
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\bin\Debug\net5.0\Acme.BookStore.EntityFrameworkCore.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\bin\Debug\net5.0\ref\Acme.BookStore.EntityFrameworkCore.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\bin\Debug\net5.0\Acme.BookStore.EntityFrameworkCore.pdb
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\bin\Debug\net5.0\Acme.BookStore.Domain.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\bin\Debug\net5.0\Acme.BookStore.Domain.Shared.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\bin\Debug\net5.0\Acme.BookStore.Domain.pdb
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\bin\Debug\net5.0\Acme.BookStore.Domain.Shared.pdb
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\obj\Debug\net5.0\Acme.BookStore.EntityFrameworkCore.csproj.AssemblyReference.cache
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\obj\Debug\net5.0\Acme.BookStore.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\obj\Debug\net5.0\Acme.BookStore.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\obj\Debug\net5.0\Acme.BookStore.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\obj\Debug\net5.0\Acme.BookStore.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\obj\Debug\net5.0\Acme.BookStore.EntityFrameworkCore.csproj.CopyComplete
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\obj\Debug\net5.0\Acme.BookStore.EntityFrameworkCore.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\obj\Debug\net5.0\ref\Acme.BookStore.EntityFrameworkCore.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.EntityFrameworkCore\obj\Debug\net5.0\Acme.BookStore.EntityFrameworkCore.pdb

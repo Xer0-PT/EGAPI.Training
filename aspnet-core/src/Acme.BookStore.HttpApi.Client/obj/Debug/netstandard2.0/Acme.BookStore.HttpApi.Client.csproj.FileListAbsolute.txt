@@ -1,0 +1,14 @@
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\bin\Debug\netstandard2.0\Acme.BookStore.HttpApi.Client.deps.json
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\bin\Debug\netstandard2.0\Acme.BookStore.HttpApi.Client.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\bin\Debug\netstandard2.0\Acme.BookStore.HttpApi.Client.pdb
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\bin\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\bin\Debug\netstandard2.0\Acme.BookStore.Domain.Shared.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\bin\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.pdb
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\bin\Debug\netstandard2.0\Acme.BookStore.Domain.Shared.pdb
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\obj\Debug\netstandard2.0\Acme.BookStore.HttpApi.Client.csproj.AssemblyReference.cache
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\obj\Debug\netstandard2.0\Acme.BookStore.HttpApi.Client.AssemblyInfoInputs.cache
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\obj\Debug\netstandard2.0\Acme.BookStore.HttpApi.Client.AssemblyInfo.cs
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\obj\Debug\netstandard2.0\Acme.BookStore.HttpApi.Client.csproj.CoreCompileInputs.cache
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\obj\Debug\netstandard2.0\Acme.BookStore.HttpApi.Client.csproj.CopyComplete
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\obj\Debug\netstandard2.0\Acme.BookStore.HttpApi.Client.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.HttpApi.Client\obj\Debug\netstandard2.0\Acme.BookStore.HttpApi.Client.pdb

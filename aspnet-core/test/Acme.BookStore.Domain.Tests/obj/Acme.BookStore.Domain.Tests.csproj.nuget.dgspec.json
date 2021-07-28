@@ -1,0 +1,612 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.Domain.Tests\\Acme.BookStore.Domain.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain.Shared\\Acme.BookStore.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain.Shared\\Acme.BookStore.Domain.Shared.csproj",
+        "projectName": "Acme.BookStore.Domain.Shared",
+        "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain.Shared\\Acme.BookStore.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\jmartins\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\NuGet.Config",
+          "C:\\Users\\jmartins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[5.0.*, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Volo.Abp.AuditLogging.Domain.Shared": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.BackgroundJobs.Domain.Shared": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.FeatureManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.Identity.Domain.Shared": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.IdentityServer.Domain.Shared": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.SettingManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.TenantManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain\\Acme.BookStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain\\Acme.BookStore.Domain.csproj",
+        "projectName": "Acme.BookStore.Domain",
+        "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain\\Acme.BookStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\jmartins\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\NuGet.Config",
+          "C:\\Users\\jmartins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain.Shared\\Acme.BookStore.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain.Shared\\Acme.BookStore.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Volo.Abp.AuditLogging.Domain": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.BackgroundJobs.Domain": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.Emailing": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.FeatureManagement.Domain": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.Identity.Domain": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.IdentityServer.Domain": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Identity": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.IdentityServer": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.SettingManagement.Domain": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.TenantManagement.Domain": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore.DbMigrations\\Acme.BookStore.EntityFrameworkCore.DbMigrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore.DbMigrations\\Acme.BookStore.EntityFrameworkCore.DbMigrations.csproj",
+        "projectName": "Acme.BookStore.EntityFrameworkCore.DbMigrations",
+        "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore.DbMigrations\\Acme.BookStore.EntityFrameworkCore.DbMigrations.csproj",
+        "packagesPath": "C:\\Users\\jmartins\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore.DbMigrations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\NuGet.Config",
+          "C:\\Users\\jmartins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore\\Acme.BookStore.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore\\Acme.BookStore.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore\\Acme.BookStore.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore\\Acme.BookStore.EntityFrameworkCore.csproj",
+        "projectName": "Acme.BookStore.EntityFrameworkCore",
+        "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore\\Acme.BookStore.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\jmartins\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\NuGet.Config",
+          "C:\\Users\\jmartins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain\\Acme.BookStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain\\Acme.BookStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Volo.Abp.AuditLogging.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.BackgroundJobs.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.PostgreSql": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.FeatureManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.IdentityServer.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.TenantManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.Domain.Tests\\Acme.BookStore.Domain.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.Domain.Tests\\Acme.BookStore.Domain.Tests.csproj",
+        "projectName": "Acme.BookStore.Domain.Tests",
+        "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.Domain.Tests\\Acme.BookStore.Domain.Tests.csproj",
+        "packagesPath": "C:\\Users\\jmartins\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.Domain.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\NuGet.Config",
+          "C:\\Users\\jmartins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.EntityFrameworkCore.Tests\\Acme.BookStore.EntityFrameworkCore.Tests.csproj": {
+                "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.EntityFrameworkCore.Tests\\Acme.BookStore.EntityFrameworkCore.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.EntityFrameworkCore.Tests\\Acme.BookStore.EntityFrameworkCore.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.EntityFrameworkCore.Tests\\Acme.BookStore.EntityFrameworkCore.Tests.csproj",
+        "projectName": "Acme.BookStore.EntityFrameworkCore.Tests",
+        "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.EntityFrameworkCore.Tests\\Acme.BookStore.EntityFrameworkCore.Tests.csproj",
+        "packagesPath": "C:\\Users\\jmartins\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.EntityFrameworkCore.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\NuGet.Config",
+          "C:\\Users\\jmartins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore.DbMigrations\\Acme.BookStore.EntityFrameworkCore.DbMigrations.csproj": {
+                "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore.DbMigrations\\Acme.BookStore.EntityFrameworkCore.DbMigrations.csproj"
+              },
+              "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.TestBase\\Acme.BookStore.TestBase.csproj": {
+                "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.TestBase\\Acme.BookStore.TestBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.1, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.TestBase\\Acme.BookStore.TestBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.TestBase\\Acme.BookStore.TestBase.csproj",
+        "projectName": "Acme.BookStore.TestBase",
+        "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.TestBase\\Acme.BookStore.TestBase.csproj",
+        "packagesPath": "C:\\Users\\jmartins\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\test\\Acme.BookStore.TestBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\NuGet.Config",
+          "C:\\Users\\jmartins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain\\Acme.BookStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\src\\Acme.BookStore.Domain\\Acme.BookStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.1, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Volo.Abp.Authorization": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.TestBase": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

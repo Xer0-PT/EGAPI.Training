@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\Gateway.Host\\Gateway.Host.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\Gateway.Host\\Gateway.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\Gateway.Host\\Gateway.Host.csproj",
+        "projectName": "Gateway.Host",
+        "projectPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\Gateway.Host\\Gateway.Host.csproj",
+        "packagesPath": "C:\\Users\\jmartins\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\Gateway.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jmartins\\Tutorial-ABP\\aspnet-core\\NuGet.Config",
+          "C:\\Users\\jmartins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Ocelot": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "Volo.Abp": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.AspNetCore": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.FeatureManagement.Application": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.FeatureManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.FeatureManagement.HttpApi": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.Http": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.Identity.HttpApi": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.Identity.HttpApi.Client": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "Volo.Abp.Swashbuckle": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

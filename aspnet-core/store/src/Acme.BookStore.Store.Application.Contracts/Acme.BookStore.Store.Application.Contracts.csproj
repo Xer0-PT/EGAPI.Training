@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Acme.BookStore.Store</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Purchases\StoreBookNameLookUp.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="4.3.3" />
+    <ProjectReference Include="..\Acme.BookStore.Store.Domain.Shared\Acme.BookStore.Store.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Acme.BookStore.Store.Domain\Acme.BookStore.Store.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\bin\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.deps.json
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\bin\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\bin\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.pdb
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\bin\Debug\netstandard2.0\Acme.BookStore.Domain.Shared.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\bin\Debug\netstandard2.0\Acme.BookStore.Domain.Shared.pdb
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\obj\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\obj\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\obj\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.AssemblyInfo.cs
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\obj\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\obj\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.csproj.CopyComplete
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\obj\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.dll
+C:\Users\jmartins\Tutorial-ABP\aspnet-core\src\Acme.BookStore.Application.Contracts\obj\Debug\netstandard2.0\Acme.BookStore.Application.Contracts.pdb
