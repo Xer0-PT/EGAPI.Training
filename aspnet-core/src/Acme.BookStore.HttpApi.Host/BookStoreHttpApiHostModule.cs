@@ -64,15 +64,6 @@ namespace Acme.BookStore
             ConfigureCors(context, configuration);
             ConfigureSwaggerServices(context, configuration);
 
-            //context.Services.AddHttpClientProxies(typeof(BookStoreApplicationContractsModule).Assembly,
-            //    remoteServiceConfigurationName: "Default");
-
-            //Configure<AbpRemoteServiceOptions>(options =>
-            //{
-            //    options.RemoteServices.Default =
-            //        new RemoteServiceConfiguration("https://localhost:44315/");
-            //});
-
             Configure<AbpDistributedEntityEventOptions>(options =>
             {
                 options.AutoEventSelectors.AddAll();

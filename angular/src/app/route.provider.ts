@@ -26,6 +26,7 @@ function configureRoutes(routesService: RoutesService) {
         path: '/books',
         name: '::Books',
         layout: eLayoutType.application,
+        requiredPolicy: 'BookStore.Books',
       },
       {
         path: '/purchases',

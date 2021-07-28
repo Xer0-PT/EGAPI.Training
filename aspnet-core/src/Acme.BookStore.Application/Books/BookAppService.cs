@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Acme.BookStore.Permissions;
+using System;
 using System.Threading.Tasks;
 using Volo.Abp;
 using Volo.Abp.Application.Dtos;
@@ -26,6 +27,12 @@ namespace Acme.BookStore.Books
             IDataFilter<ISoftDelete> softDeleteFilter) : base(repository)
         {
             _softDeleteFilter = softDeleteFilter;
+
+            GetPolicyName = BookStorePermissions.Books.Default;
+            GetListPolicyName = BookStorePermissions.Books.Default;
+            CreatePolicyName = BookStorePermissions.Books.Create;
+            UpdatePolicyName = BookStorePermissions.Books.Edit;
+            DeletePolicyName = BookStorePermissions.Books.Delete;
         }
 
         public override async Task<BookDto> CreateAsync(CreateBookDto input)

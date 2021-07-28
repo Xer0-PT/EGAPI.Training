@@ -1,6 +1,7 @@
 ﻿using Acme.BookStore.Store.StoreBooks;
 using Acme.BookStore.Store.Purchases;
 using AutoMapper;
+using System.Collections.Generic;
 
 namespace Acme.BookStore.Store
 {
@@ -30,6 +31,8 @@ namespace Acme.BookStore.Store
             CreateMap<UpdateStoreBookDto, StoreBook>();
 
             CreateMap<StoreBook, StoreBookEto>();
+
+            CreateMap<List<StoreBook>, List<StoreBookDto>>();
         }
     }
 }
