@@ -10,9 +10,6 @@ namespace Acme.BookStore.Permissions
         {
             var bookStoreGroup = context.AddGroup(BookStorePermissions.GroupName, L("Permission:BookStore"));
 
-            //Define your own permissions here. Example:
-            //myGroup.AddPermission(BookStorePermissions.MyPermission1, L("Permission:MyPermission1"));
-
             var booksPermission = bookStoreGroup.AddPermission(BookStorePermissions.Books.Default, L("Permission:BookStore"));
             booksPermission.AddChild(BookStorePermissions.Books.Create, L("Permission:Books.Create"));
             booksPermission.AddChild(BookStorePermissions.Books.Edit, L("Permission:Books.Edit"));

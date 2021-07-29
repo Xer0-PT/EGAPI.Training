@@ -31,6 +31,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.UI.Navigation.Urls;
 using Volo.Abp.UI;
 using Volo.Abp.VirtualFileSystem;
+using Volo.Abp.AspNetCore.Mvc.AntiForgery;
 
 namespace Acme.BookStore
 {
@@ -51,6 +52,14 @@ namespace Acme.BookStore
         {
             var hostingEnvironment = context.Services.GetHostingEnvironment();
             var configuration = context.Services.GetConfiguration();
+
+            Configure<AbpAntiForgeryOptions>(options =>
+            {
+                options.AutoValidate = true;
+                options.AutoValidateIgnoredHttpMethods.Add("POST");
+                options.AutoValidateIgnoredHttpMethods.Add("PUT");
+                options.AutoValidateIgnoredHttpMethods.Add("DELETE");
+            });
 
             Configure<AbpLocalizationOptions>(options =>
             {
@@ -88,7 +97,7 @@ namespace Acme.BookStore
 
             Configure<AbpAuditingOptions>(options =>
             {
-                options.IsEnabledForGetRequests = true;
+                //options.IsEnabledForGetRequests = true;
                 options.ApplicationName = "AuthServer";
             });
 

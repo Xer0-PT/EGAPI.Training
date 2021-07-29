@@ -1,4 +1,5 @@
 ﻿using Acme.BookStore.Permissions;
+using Microsoft.AspNetCore.Authorization;
 using System;
 using System.Threading.Tasks;
 using Volo.Abp;
@@ -10,6 +11,7 @@ using Volo.Abp.Domain.Repositories;
 
 namespace Acme.BookStore.Books
 {
+    [Authorize]
     public class BookAppService :
         CrudAppService<
             Book,
@@ -35,6 +37,7 @@ namespace Acme.BookStore.Books
             DeletePolicyName = BookStorePermissions.Books.Delete;
         }
 
+        [Authorize("BookStore.Books.Create")]
         public override async Task<BookDto> CreateAsync(CreateBookDto input)
         {
             var bookExists = await GetAllBooksIncludingDeleted(input.Name);

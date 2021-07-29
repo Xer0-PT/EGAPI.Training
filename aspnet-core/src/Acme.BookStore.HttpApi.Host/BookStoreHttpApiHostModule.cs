@@ -72,6 +72,7 @@ namespace Acme.BookStore
 
             Configure<AbpAntiForgeryOptions>(options =>
             {
+                options.AutoValidate = true;
                 options.AutoValidateIgnoredHttpMethods.Add("POST");
                 options.AutoValidateIgnoredHttpMethods.Add("PUT");
                 options.AutoValidateIgnoredHttpMethods.Add("DELETE");

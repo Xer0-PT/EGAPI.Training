@@ -10,7 +10,8 @@ export const environment = {
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'https://localhost:44328',
+    issuer: 'https://localhost:44357',
+    // issuer: 'https://localhost:44354',
     redirectUri: baseUrl,
     clientId: 'BookStore_App',
     responseType: 'code',
@@ -18,7 +19,8 @@ export const environment = {
   },
   apis: {
     default: {
-      url: 'https://localhost:44328',
+      url: 'https://localhost:44357',
+      // url: 'https://localhost:44354',
       rootNamespace: 'BookStore',
     },
   },

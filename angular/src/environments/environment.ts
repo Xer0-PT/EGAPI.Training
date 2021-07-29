@@ -10,7 +10,7 @@ export const environment = {
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'https://localhost:44330',
+    issuer: 'https://localhost:44357',
     redirectUri: baseUrl,
     clientId: 'BookStore_App',
     responseType: 'code',
@@ -18,6 +18,10 @@ export const environment = {
   },
   apis: {
     default: {
+      url: 'https://localhost:44304', // <-- Tentar fazer tudo através do gateway
+      rootNamespace: 'Acme.BookStore',
+    },
+    books: {
       url: 'https://localhost:44304',
       rootNamespace: 'Acme.BookStore.Books',
     },
@@ -32,5 +36,5 @@ export const environment = {
     gateway: {
       url: 'https://localhost:44315',
     },
-    }
+    },
 } as Environment;
